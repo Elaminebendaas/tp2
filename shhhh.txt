@@ -1,0 +1,2 @@
+admin: elamine
+psswd: lamino20
