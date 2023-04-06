@@ -1,8 +1,10 @@
 import {mongoose} from "../app.js"
 
 const professeurSchema = new mongoose.Schema({
-        prenom: String,
+    
+    prenom: String,
         nom: String,
-        cours: [{idDuCours: String}] 
+        studentID: Number,
+        cours: [{idDuCours: String}],
     }
 )
